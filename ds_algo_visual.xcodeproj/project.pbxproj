@@ -94,6 +94,9 @@
 		01493179290A623E00621498 /* ds_algo_visual */ = {
 			isa = PBXGroup;
 			children = (
+				014931A6290A62B100621498 /* model */,
+				014931A5290A62A600621498 /* view */,
+				014931A4290A629900621498 /* viewmodel */,
 				0149317A290A623E00621498 /* ds_algo_visualApp.swift */,
 				0149317C290A623E00621498 /* ContentView.swift */,
 				0149317E290A623F00621498 /* Assets.xcassets */,
@@ -125,6 +128,27 @@
 				01493197290A623F00621498 /* ds_algo_visualUITestsLaunchTests.swift */,
 			);
 			path = ds_algo_visualUITests;
+			sourceTree = "<group>";
+		};
+		014931A4290A629900621498 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		014931A5290A62A600621498 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		014931A6290A62B100621498 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

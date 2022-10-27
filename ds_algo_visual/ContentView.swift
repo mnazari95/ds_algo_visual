@@ -10,10 +10,16 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            //Title
+            HStack {
+                VStack {
+                    Text("Data Structures & Algorithm")
+                        .font(Font.system(size: 22, weight: .heavy))
+                    Text("Visualizer")
+                        .font(Font.system(size: 16, weight: .semibold))
+                }
+            }.padding()
+            Spacer()
         }
         .padding()
     }
